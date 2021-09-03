@@ -1,3 +1,3 @@
 # Clima-Tempo
 
-Em construção 🚧
+⚙️ Em construção 🚧
