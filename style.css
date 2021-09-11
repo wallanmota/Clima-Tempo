@@ -35,14 +35,14 @@ h1 {
     padding: 10px;
     font-size: 15px;
     border: 0;
-    background-color: #555;
+    background-color: rgb(123, 123, 238);
     color: #FFF;
     border-radius: 5px;
     margin-left: 10px;
     cursor: pointer;
 }
 .busca button:hover {
-    background-color: #444;
+    background-color: rgb(45, 45, 165);
 }
 
 .resultado {
