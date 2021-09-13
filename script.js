@@ -32,7 +32,6 @@ document.querySelector('form.busca').addEventListener('submit', async(event)=>{
 
 function showInfo(json){
     showWarning('');
-    document.querySelector('div.resultado').style.display = "block"
 
     document.querySelector('div.titulo').innerHTML = `${json.name}, ${json.country}`;
     document.querySelector('div.tempInfo').innerHTML = `${json.temp} <sup>ºC</sup>`;
@@ -40,6 +39,8 @@ function showInfo(json){
 
     document.querySelector('div.temp img').setAttribute('src', `http://openweathermap.org/img/wn/${json.tempIcon}@2x.png`);
     document.querySelector('div.ventoPonto').style.transform = `rotate(${json.windAngle-90}deg)`;
+
+    document.querySelector('div.resultado').style.display = "block"
     
 }
 
